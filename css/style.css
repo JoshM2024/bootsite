@@ -1,0 +1,92 @@
+/******************** Class Selectors *******************/
+body {
+  margin: 0;
+  background-color: white;
+}
+
+div {
+  margin: 0;
+}
+
+section {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #7298C9;
+}
+
+h1 {
+  color: #72C9A4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  margin-left: 5px;
+}
+
+h5 {
+  color: #7298C9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+/********************* Tag/ID Selectors ********************/
+.top-container {
+  background-color: white;
+  color: black;
+}
+
+.middle-container {
+  background-color: #78DAFB;
+  padding: 5px;
+  margin: 0;
+}
+
+.bottom-container {
+  background-color: white;
+}
+
+.game {
+  width: 100%;
+  height: 70%;
+}
+
+.top-image {
+  border-radius: 15px;
+  height: 300px;
+  position: absolute;
+  left: 25%;
+}
+
+.navbar-brand {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.container-fluid {
+  padding: 20px 5px;
+}
+
+.top-words {
+  margin-left: 5%;
+}
+
+.nav-link {
+  color: #72c3c9;
+}
+
+.navbar-brand {
+  color: #72c3c9;
+}
