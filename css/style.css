@@ -10,6 +10,7 @@ div {
 
 section {
   margin: 0;
+  width: 100%;
 }
 
 p {
@@ -96,4 +97,10 @@ i {
 }
 .nav-item {
   padding: 0 1rem;
+}
+.row {
+  width:100%;
+}
+.col-lg-4 {
+  text-align: center;
 }
