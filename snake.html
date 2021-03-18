@@ -11,7 +11,7 @@
   <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md bg-light">
-    <a class="navbar-brand" href= "">Sickle Cell Anemia</a>
+    <a class="navbar-brand">Sickle Cell Anemia</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar-collapse"
    name="button">
     <span class="navbar-toggler-icon"></span>
@@ -108,8 +108,8 @@
           if (cell.x === apple.x && cell.y === apple.y) {
             snake.maxCells++;
 
-            // canvas is 400x400 which is 25x25 grids
-            apple.x = getRandomInt(0, 95) * grid;
+            // canvas is 16x16 grids
+            apple.x = getRandomInt(0, 85) * grid;
             apple.y = getRandomInt(0, 40) * grid;
           }
 
@@ -125,11 +125,11 @@
               snake.dx = grid;
               snake.dy = 0;
 
-              apple.x = getRandomInt(0, 95) * grid;
+              apple.x = getRandomInt(0, 85) * grid;
               apple.y = getRandomInt(0, 40) * grid;
             }
             // reset game if snake hits boundaries
-            if (snake.x < 0 || snake.x >1535) {
+            if (snake.x < 0 || snake.x >1366) {
               snake.x = 160;
               snake.y = 160;
               snake.cells = [];
@@ -137,7 +137,7 @@
               snake.dx = grid;
               snake.dy = 0;
 
-              apple.x = getRandomInt(0, 95) * grid;
+              apple.x = getRandomInt(0, 85) * grid;
               apple.y = getRandomInt(0, 40) * grid;
             }
             if (snake.y < 0 || snake.y >640) {
@@ -148,7 +148,7 @@
               snake.dx = grid;
               snake.dy = 0;
 
-              apple.x = getRandomInt(0, 95) * grid;
+              apple.x = getRandomInt(0, 85) * grid;
               apple.y = getRandomInt(0, 40) * grid;
             }
           }
