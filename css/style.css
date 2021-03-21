@@ -46,6 +46,7 @@ h5 {
 .row {
   width: 100%;
 }
+
 /********************* Tag/ID Selectors ********************/
 .top-container {
   background-color: white;
@@ -98,6 +99,7 @@ table, th, td {
 th, td {
   padding: 35px;
 }
+
 .table-top {
   background-color: #E96373;
 }
@@ -110,84 +112,103 @@ table {
 .pedigree-img {
   margin-left: 10%;
 }
+
 iframe {
   width: 75%;
   height: 75%;
   margin-left: 12.5%;
 }
+
 .genetic-counselor {
   margin-top: 2rem;
   padding: 5px;
   margin-left: 10px;
   text-align: center;
 }
+
 #video-SCD {
   height: 650px;
   width: 100%;
 }
+
 #table-text {
   margin-top: 75px;
 }
+
 .money-image {
   border-radius: 15px;
   position: relative;
   left: 25%;
   margin-bottom: 1rem;
 }
+
 a {
   color: #5A9635;
 }
+
 .green-theme {
-    color: #5A9635;
-    text-align: center;
-    font-family: "baloo tammudu 2";
-    font-size: 23px;
+  color: #5A9635;
+  text-align: center;
+  font-family: "baloo tammudu 2";
+  font-size: 23px;
 }
+
 .red-theme {
-    color: #E3364B;
-    font-family: "baloo tammudu 2";
-    font-size: 23px;
+  color: #E3364B;
+  font-family: "baloo tammudu 2";
+  font-size: 23px;
 }
+
 .information-text {
   margin-left: 10px;
   padding: 5px;
   text-align: center;
 }
+
 .red-theme-span {
   color: #E3364B;
 }
+
 .green-theme-span {
   color: #416D27;
 }
+
 .carouselExampleControls {
   height: 700px;
 }
+
 .divider {
   width: 100%;
   height: 25px;
   background-color: #1082a5;
   color: #1082a5;
 }
+
 .parents-report {
   height: 1095px;
   margin-bottom: 40px;
   margin-top: 20px;
 }
+
 .green-carousel-container, .red-carousel-container, .general-carousel-container {
   margin-bottom: 20px;
 }
+
 #more-space {
   height: 700px;
 }
+
 h3, .orange-theme {
   color: #D2862D;
   text-align: center;
   font-family: "baloo tammudu 2";
   font-style: italic;
 }
+
 .orange-theme {
   font-size: 23px;
 }
+
 #plus-thing {
   font-size: 60px;
   margin-top: 20px;
@@ -196,10 +217,12 @@ h3, .orange-theme {
   position: relative;
   color: #DB9E57;
 }
+
 .orange-span {
   font-weight: bold;
   color: #D2862D;
 }
+
 .orange-link {
   color: #D2862D;
 }
