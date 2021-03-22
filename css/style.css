@@ -285,34 +285,43 @@ h3, .orange-theme {
 #icon1, #icon2, #icon3, #icon4, #icon5, #icon6 {
   font-size: 18px;
 }
+
 .subtitle-statistics, .subtitle-red, .subtitle-green, .subtitle-orange {
-font-family: "Bebas Neue";
-font-size: 35px;
-margin: 20px 0;
+  font-family: "Bebas Neue";
+  font-size: 35px;
+  margin: 20px 0;
 }
+
 .subtitle-statistics {
-color: black;
+  color: black;
 }
+
 .subtitle-red {
-color: #E3364B;
+  color: #E3364B;
 }
+
 .subtitle-green {
-color: #416D27;
+  color: #416D27;
 }
+
 .subtitle-orange {
-color: #D2862D;
+  color: #D2862D;
 }
+
 .sickle-image {
   padding-top: 5%;
   text-align: center;
 }
+
 .cover-image {
   width: 75%;
 }
+
 .footer {
   height: 100px;
   background-color: black;
 }
+
 #works-button {
   padding: 10px;
   margin-top: 10px;
