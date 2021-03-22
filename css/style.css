@@ -61,7 +61,6 @@ ul {
   padding: 0.3125rem;
   margin: 0;
 }
-
 .bottom-container {
   background-color: white;
 }
@@ -98,6 +97,7 @@ ul {
 .navbar-brand {
   color: #72c3c9;
 }
+
 .nav-item {
   padding: 0 1rem;
 }
@@ -255,6 +255,7 @@ h3, .orange-theme {
 .orange-link {
   color: #D2862D;
 }
+
 .genetic-counselor {
   width: 97%;
 }
