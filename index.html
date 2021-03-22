@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap" rel="stylesheet">
@@ -20,39 +21,17 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md bg-light">
+  <nav id="scd-navbar" class="navbar navbar-expand-md bg-light">
     <a class="navbar-brand" href="">Sickle Cell Anemia</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-navbar-collapse" name="button">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="top-navbar-collapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="">Doctor's Report</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Page 3</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Page 4</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="snake.html">Snake Game</a>
-        </li>
-      </ul>
-    </div>
   </nav>
   <!-- Top Section -->
-  <section class="top-container container-fluid">
+  <section id="doctors-report" class="top-container container-fluid">
     <div class="row">
       <div class="col-lg-6">
-        <h1>Overview</h1>
-        <h5>Josh Myers' Project</h3>
+        <h1 class="overview">Overview</h1>
+        <h5 class="overview">Josh Myers' Project</h3>
           <br>
-          <p>The disease I researched is <span>Sickle Cell Anemia</span>. With this disease, some of your blood cells turn into sickle shapes. This causes blood clots which are harmful.
+          <p class="overview">The disease I researched is <span>Sickle Cell Anemia</span>. With this disease, some of your blood cells turn into sickle shapes. This causes blood clots which are harmful.
             Sickle Cell Anemia, otherwise known as <span>Sickle Cell Disease or SCD</span> is a very interesting genetic disorder you will learn about.</p>
       </div>
       <div class="col-lg-6">
@@ -60,49 +39,71 @@
       </div>
     </div>
   </section>
-  <!-- Middle section with divider -->
-  <!-- Changes down here -->
-  <!-- Add the font Baloo Tammudu 2 -->
   <div class="divider">
-    <p>Why are you highliting random parts of my page??</p>
+    <p>Why are you highlighting random parts of my page??</p>
   </div>
-  <section class="general-statistics">
-    <div class="col-lg-4">
-      <!-- Positive things about SCD -->
-      <br>
-      <i id="thumbs-up" class="far fa-thumbs-up" aria-hidden="true"></i>
-      <h5>Some Good things Are:</h5>
-      <ul>
-        <li>You're immune to Malaria ... That's it.</li>
-      </ul>
+  <section id="statistics" class="general-statistics">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="subtitle-statistics">Doctor's Report</h3>
+      </div>
+      <div class="col-lg-4">
+        <!-- Positive things about SCD -->
+        <br>
+        <i id="thumbs-up" class="far fa-thumbs-up" aria-hidden="true"></i>
+        <h5>Some Good things Are:</h5>
+        <ul>
+          <li>You're immune to Malaria ... That's it.</li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <!-- Negative things about SCD -->
+        <br>
+        <i id="thumbs-down" class="far fa-thumbs-down" aria-hidden="true"></i>
+        <h5>Some Negative Things Are:</h5>
+        <ul>
+          <li>Your blood clots more often</li>
+          <li>You're in pain a lot</li>
+          <li>You don't know how long you'll have SCD</li>
+          <li>You may not be able to exercise</li>
+          <li>Sometime's you'll have blood in your urine</li>
+          <li>Fatigued</li>
+          <li>Low oxygen</li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <!-- Treatment Options -->
+        <br>
+        <i id="pill" class="fas fa-capsules" aria-hidden="true"></i>
+        <h5>Treatment options consist of: </h5>
+        <ul>
+          <li>Blood transplants</li>
+          <li>Bone marrow transplants</li>
+          <li>Stem cell surgery</li>
+          <li>Medication</li>
+        </ul>
+      </div>
     </div>
-    <div class="col-lg-4">
-      <!-- Negative things about SCD -->
-      <br>
-      <i id="thumbs-down" class="far fa-thumbs-down" aria-hidden="true"></i>
-      <h5>Some Negative Things Are:</h5>
-      <ul>
-        <li>Your blood clots more often</li>
-        <li>You're in pain a lot</li>
-        <li>You don't know how long you'll have SCD</li>
-        <li>You may not be able to exercise</li>
-        <li>Sometime's you'll have blood in your urine</li>
-        <li>Fatigued</li>
-        <li>Low oxygen</li>
-      </ul>
+    <div class="row">
+      <div class="col-lg-6">
+        <br>
+        <i id="percentage" class="fas fa-percentage" aria-hidden="true"></i>
+        <h5>General Statistics</h5>
+        <ul>
+          <li>Fewer than 200k cases annually</li>
+          <li>8 to 10 percent of African Americans have this, and around 1-3 million americans annually</li>
+          <li>African Americans are more likely to get SCD</li>
+          <li>NOT curable</li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <img src="images/sickle-cell.jpg" alt="sickle-image">
+      </div>
+      <div class="sickle-image" class="col-lg-3">
+        <p><i id="icon5" class="fas fa-arrow-circle-left"></i> Image of SCD</p>
+      </div>
     </div>
-    <div class="col-lg-4">
-      <!-- Treatment Options -->
-      <br>
-      <i id="pill" class="fas fa-capsules" aria-hidden="true"></i>
-      <h5>Treatment options consist of: </h5>
-      <ul>
-        <li>Blood transplants</li>
-        <li>Bone marrow transplants</li>
-        <li>Stem cell surgery</li>
-        <li>Medication</li>
-      </ul>
-    </div>
+
   </section>
   <section class="general-carousel-container">
     <div id="stat-carousel" class="carousel slide" data-ride="carousel">
@@ -126,6 +127,9 @@
   </section>
   <section class="genetic-counselor">
     <div class="row">
+      <div class="col-lg-12">
+        <h3 class="subtitle-red">Genetic Counselor</h3>
+      </div>
       <div class="col-lg-6">
         <h5 class="red-theme">How is Sickle Cell Anemia Inherited?</h5>
         <p>SCD is inherited when both parents are either a carrier, or have the disease themselves.
@@ -134,7 +138,7 @@
       <div class="col-lg-6">
         <h5 class="red-theme">Gene Stuff</h5>
         <p>Sickle Cell Disease is a <span class="red-theme-span">autosomal</span> disease, meaning it isn't sex-linked.</p>
-        <p>There's also a pedigree which still shows how genes are passed on, but through multiple generations. Both of them are right there <i class="fas fa-arrow-circle-down"></i></p>
+        <p>There's also a pedigree which still shows how genes are passed on, but through multiple generations. Both of them are right there <i id="icon1" class="fas fa-arrow-circle-down"></i></p>
       </div>
 
       <div class="col-lg-6">
@@ -143,19 +147,20 @@
       <div class="col-lg-6">
         <table>
           <tr>
-            <th class="table-top"><i class="fas fa-dna"></i></th>
-            <th class="table-top"> X<sup>S</sup> </th>
-            <th class="table-top"> Y<sup>s</sup> </th>
+
+            <th class="table-top"><i id="icon2" class="fas fa-dna"></i></th>
+            <th class="table-top">S</th>
+            <th class="table-top">s</th>
           </tr>
           <tr>
-            <th> X<sup>s</sup> </th>
-            <td> XX<sup>Ss</sup> </td>
-            <td> XY<sup>ss</sup> </td>
+            <th>s</th>
+            <td>Ss</td>
+            <td>ss</td>
           </tr>
           <tr>
-            <th> X<sup>s</sup> </th>
-            <td> XX<sup>Ss</sup> </td>
-            <td> XY<sup>ss</sup> </td>
+            <th>s</th>
+            <td>Ss</td>
+            <td>ss</td>
           </tr>
         </table>
       </div>
@@ -164,11 +169,19 @@
           there is a <span class="red-theme-span">100%</span> chance that their kids will have SCD, or be carriers. On the other hand, if both parents are carriers, there's a chance that the kids won't have or
           carry SCD. A quick side note, African Americans are more likely to get Sickle Cell Disease. This is because SCD defends against malaria which is more prevelant where they were native to.
           I've talked a lot about Sickle Cell Anemia but haven't actually visualized it for you. If you would like to see a short video on it visualized, watch this
-          <i class="fas fa-arrow-circle-right"></i>
+          <i id="icon3" class="fas fa-arrow-circle-right"></i>
         </p>
       </div>
       <div id="video-SCD" class="col-lg-6">
         <iframe src="https://www.youtube.com/embed/iTm7jHIZAic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-3">
+        <img class="cover-image" src="images/cover.jpg" alt="book-cover-image">
+      </div>
+      <div class="col-lg-9">
+        <h3 class="red-theme">Hope & Destiny: The Patient and Parent's Guide to Sickle Cell Disease and Sickle Cell Trait</h3>
+        <p>This book has great reviews such as: "<span class="red-theme-span">The "bible" for everyone that lives with Sickle Cell</span>." With reviews like this, this book should give you and your family
+        insight to how to deal with SCD.</p>
       </div>
     </div>
   </section>
@@ -194,6 +207,9 @@
   </section>
   <section class="parents-report">
     <div class="row">
+      <div class="col-lg-12">
+        <h3 class="subtitle-green">Parent's Report</h3>
+      </div>
       <div class="col-lg-6">
         <h5 class="green-theme">Alterations and Accomodations</h5>
         <p class="information-text">Sickle Cell Anemia brings with it some alterations to your schedule. You don't have to go out of your way for much, but some alterations must be made no matter what.
@@ -236,7 +252,7 @@
         <br>
         <h5 class="green-theme">Location</h5>
         <p class="information-text">The closest treatment center is the Wisconsin Sickle Cell Center, in Wauwatosa. You can find all the information you need about them in the map
-          right here <i class="fas fa-arrow-circle-down"></i></p>
+          right here <i id="icon4" class="fas fa-arrow-circle-down"></i></p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11663.809923631194!2d-88.023541!3d43.0424313!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xddf6783525fcf354!2sWisconsin%20Sickle%20Cell%20Center!5e0!3m2!1sen!2sus!4v1616249977399!5m2!1sen!2sus"
           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -266,7 +282,7 @@
   <section class="community-resources">
     <div class="row">
       <div class="col-lg-12">
-        <h3>Treatment Centers and Support Groups</h3>
+        <h3 class="subtitle-orange">Community Resources</h3>
       </div>
       <div class="col-lg-6">
         <h5 class="orange-theme"><a class="orange-theme" href="https://www.stjude.org/treatment/disease/sickle-cell-disease.html">St. Jude Children's Research Hospital</a></h5>
@@ -288,7 +304,14 @@
     </div>
   </section>
   <div class="footer">
+    <input id="works-button" type="button" class="btn btn-light btn-sm" value="Works Cited" onclick=" relocate_home()">
 
+    <script>
+    function relocate_home()
+    {
+         location.href = "https://docs.google.com/document/d/1ebdUEaSR2l_hDgF-6iIZZSVD7vm74P_OMozEIPXguFc/edit?usp=sharing";
+    }
+    </script>
   </div>
   <!-- Random thing someone on github told me to put on but fixes carousels -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
