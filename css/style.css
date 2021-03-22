@@ -220,6 +220,7 @@ a {
 .green-carousel-container, .red-carousel-container, .general-carousel-container {
   margin-bottom: 20px;
   width: 100%;
+  background-color: black;
 }
 
 #more-space {
